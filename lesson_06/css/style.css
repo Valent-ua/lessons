@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+@import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
+@import url("reset.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: "Epilogue", sans-serif;
+}
+
+.header {
+	min-height: 200px;
+	background: url("../img/fon.jpg ")0 0 / cover no-repeat scroll;
+	margin-inline: auto;
+	opacity: 0.5;
+}
+
+h1 {
+	margin-inline: auto;
+	max-width: 500px;
+	padding: 50px 10px 50px 50px;
+	color: black;
+	font-size: 60px;
+	font-weight: 500;
+	text-shadow: 5px 5px 2px blue;
+
+}
+
+.menu {
+
+	margin-inline: auto;
+	max-width: 600px;
+
+}
+
+.button {
+	font-size: 28px;
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	border: 2px double black;
+	border-radius: 5%;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	outline: 5px solid blue;
+
+
+}
+
+.homework1 {
+	font-size: 0;
+	background: #FDF0E9;
+}
+
+.container1 {
+
+	margin: 0 auto;
+	max-width: 1231px;
+	padding: 50px 10px 30px 10px;
+
+}
+
+.item1 {
+	width: 50%;
+	display: inline-block;
+	font-family: Epilogue;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	color: rgba(57, 20, 0, 0.64);
+   
+}
+.logo {
+	text-align: start;
+
+	color: #EF6D58;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.list {
+	padding-top: 20px;
+}
+
+li {
+
+	background: url("../img/check.svg ")0 0 / 32px no-repeat;
+	margin-bottom: 10PX;
+	padding-left: 40px;
+}
+
+h2 {
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 64px;
+	letter-spacing: -1px;
+}
+
+.text {
+	text-align: start;
+	font-size: 20px;
+}
+
+
+.homework2 {
+	background: black;
+	font-family: "Manrope", sans-serif;
+   color: #BFBFBF;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+}
+
+.container2 {
+	max-width: 100%;
+	padding: 10px;
+
+}
+
+.sektion1 {
+	height: 800px;
+	background:
+		url("../img/vector.png") center / 470px no-repeat,
+		linear-gradient(to bottom, rgba(20, 20, 20, 0) 20%, #141414 100%) center / cover no-repeat,
+		linear-gradient(to top, rgba(20, 20, 20, 0) 20%, #141414 100%) center / cover no-repeat,
+		url("../img/Group\ 1.png") 100% center / cover no-repeat;
+
+}
+
+.menu2 {
+	border-radius: 8px;
+	border: 1px solid #1A1A1A;
+	background: #1A1A1A;
+	width: 555px;
+	height: 75px;
+	padding: 10px 40px 10px 10px;
+	margin-inline: auto;
+}
+
+ a {
+	
+	display: inline-block;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+h3{
+	color: #FFF;
+text-align: center;
+font-size: 58px;
+font-weight: 700;
+line-height: 15px;
+margin-bottom: 50px;
+}
+p{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.buttonred{
+	margin-inline: auto;
+	width: 251px;
+	height: 64px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px 25px 10px 25px;
+	margin-bottom: 30px;
+	background:
+	url("../img/Icon.png")30px center / 40px no-repeat,
+	 #E50000;
+	
+}
+.footer{
+	padding-top: 50px;
+	background-image: url("../img/fon.jpg ");
+	min-height: 300px;
+
+}
+.fytertxt{
+	font-size: 40px;
+margin-inline: auto;
+	border-radius: 50%;
+	padding-top: 70px;
+	width: 300px;
+	height: 200px;
+	background-color:rgba(24, 24, 141, 0.356);
+}
+
