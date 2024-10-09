@@ -374,7 +374,7 @@ h4 {
 	width: 30px;
 	height: 100px;
 	border: 3px red;
-	background-color: red;
+	background-color: rgb(119, 7, 7);
 	margin-inline: 700px;
 }
 
