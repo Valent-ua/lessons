@@ -65,7 +65,7 @@
 
 }
 
-.button {
+.block-sofa__button{
 	padding: 10px;
 	border-radius: 19px;
 	background: #FFF;
@@ -75,7 +75,7 @@
 	left: 48px;
 }
 
-.button:hover {
+.block-sofa__button:hover {
 	background: #e8cdcd21;
 }
 
@@ -106,15 +106,18 @@
 	width: 33%;
 	padding: 16px;
 	border: 1px solid #3A3C56;
-	z-index: 2;
 	position: relative;
+	opacity: 0.5;
 
 }
+.card:hover{
+	opacity: 1;
+}
 
-.card__fon {
+/* .card__fon {
 	width: 100%;
 	height: 608px;
-	z-index: 10;
+	z-index: 3;
 	position: absolute;
 	top: 1px;
 	background: linear-gradient(0deg, rgba(236, 241, 241, 0.3702731092436975) 1%, rgba(9, 5, 5, 0.6027661064425771) 22%);
@@ -122,15 +125,15 @@
 
 .card__fon:hover {
 	background: 0;
-}
+} */
 
 .card__button {
 
-	padding: 5px;
+	padding-inline: 10px;
 	border-radius: 19px;
 	background: #FFF;
 	position: absolute;
-	z-index: 3;
+	z-index: 20;
 	top: 416px;
 	left: 48px;
 	color: #391400;
@@ -138,12 +141,14 @@
 	font-weight: 400;
 	line-height: 200%;
 }
-
+.card__button:hover {
+	background: #a79797;
+}
 
 
 .card__logo {
 	position: absolute;
-	z-index: 4;
+	z-index: 2;
 	top: 477px;
 	left: 48px;
 	font-size: 40px;
@@ -164,70 +169,70 @@
 	background: #28293E;
 	margin: 0 auto;
 	margin-bottom: 100px;
-	z-index: 10;
+
 }
 
 .block-content__ovalbig {
 	position: absolute;
 	top: 274px;
 	left: 198px;
-	z-index: 20;
+	z-index: 2;
 }
 
 .wiolet__fon {
 	position: absolute;
 	top: 168px;
 	left: 87px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .wiolet__comp {
 	position: absolute;
 	top: 202px;
 	left: 108px;
-	z-index: 40;
+	z-index: 4;
 }
 
 .oval__red {
 	position: absolute;
 	top: 218px;
 	left: 391px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .oval__stars {
 	position: absolute;
 	top: 240px;
 	left: 420px;
-	z-index: 40;
+	z-index: 4;
 }
 
 .block-content__item {
 	position: absolute;
 	top: 258px;
 	left: 545px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .block-content__shape {
 	position: absolute;
 	top: 514px;
 	left: 80px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .block-content__bloc {
 	position: absolute;
 	top: 604px;
 	left: 110px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .block-content__yellow {
 	position: absolute;
 	top: 361px;
 	left: 450px;
-	z-index: 30;
+	z-index: 3;
 	height: 305px;
 	width: 246px;
 	border-radius: 123px 123px 8px 8px;
@@ -240,14 +245,14 @@
 	position: absolute;
 	top: 400px;
 	left: 450px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .block-content__line {
 	position: absolute;
 	top: 718px;
 	left: 450px;
-	z-index: 30;
+	z-index: 3;
 }
 
 .footer {
@@ -279,7 +284,6 @@
 	width: 246px;
 	border-radius: 123px 123px 8px 8px;
 	background: red;
-	z-index: 20;
 	top: 20px;
 	left: 50px;
 
@@ -292,7 +296,7 @@
 	width: 246px;
 	border-radius: 123px 123px 8px 8px;
 	background: rgb(14, 136, 14);
-	z-index: 20;
+	
 	top: 20px;
 	right: 50px;
 
@@ -302,12 +306,12 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	z-index: 30;
+	z-index: 2;
 }
 
 .footer__photo-g {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	z-index: 30;
+	z-index: 2;
 }
