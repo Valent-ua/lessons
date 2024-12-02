@@ -67,7 +67,7 @@
 .block {
 	display: flex;
 	flex-direction: column;
-	width: 100;
+	width: 100%;
 	gap: 24px;
 }
 
@@ -97,7 +97,7 @@
 
 .block__box--double {
 	display: flex;
-	gap: 24;
+	gap:24;
 	width: 100%;
 	padding: 5px;
 	justify-content: space-between;
